@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { HeroBlock } from '@lib';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HeroBlock :title="'test'" />
   </main>
 </template>
