@@ -4,6 +4,6 @@ import { HeroBlock } from '@lib';
 
 <template>
   <main>
-    <HeroBlock :title="'test'" />
+    <HeroBlock :data="undefined!" />
   </main>
 </template>

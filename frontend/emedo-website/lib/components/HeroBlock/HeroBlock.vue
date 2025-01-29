@@ -7,5 +7,14 @@ defineProps<HeroBlockProperties>();
 </script>
 
 <template>
-  <h1>Hero</h1>
+  <div class="hero-block">
+    test
+  </div>
 </template>
+
+<style lang="scss">
+.hero-block {
+  @apply uppercase;
+  background-color: var(--primary-accent);
+}
+</style>

@@ -1,7 +1,6 @@
-:root {
-  --primary-color: #42b983;
-}
+@use 'tailwindcss';
+@use '@lib/theme/styles.scss';
 
-span {
-  background-color: #42b983;
+:root {
+  // --primary-accent: #e77930;
 }
